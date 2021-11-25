@@ -1,0 +1,27 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+certifi = "*"
+chardet = "*"
+django = "*"
+django-qiniu-storage = "*"
+elasticsearch = "*"
+elasticsearch-dsl = "*"
+idna = "*"
+ipaddress = "*"
+python-dateutil = "*"
+pytz = "*"
+qiniu = "*"
+redis = "*"
+requests = "*"
+six = "*"
+sqlparse = "*"
+urllib3 = "*"
+
+[requires]
+python_version = "3.7"
